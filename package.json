@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
   "dependencies": {
     "@hapi/hapi": "^20.1.0",
     "dotenv": "^8.2.0"
