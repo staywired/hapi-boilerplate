@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js"
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "@hapi/hapi": "^20.1.0",
