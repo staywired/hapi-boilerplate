@@ -3,7 +3,6 @@
 const controllers = require('../controllers');
 
 module.exports = [
-    // GET COIN FROM ID
     {
       method: 'GET',
       path: '/hello-world',
