@@ -1,0 +1,21 @@
+{
+  "name": "hapi-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "eslint": "^7.23.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
