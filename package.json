@@ -1,21 +1,33 @@
 {
   "name": "hapi-boilerplate",
   "version": "1.0.0",
+  "description": "Hapi-Boilerplate has everything you need to create a solid node.js server.",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "nodemon index.js"
+    "start": "index.js",
+    "dev": "nodemon index.js"
   },
+  "keywords": [
+    "node.js",
+    "hapi",
+    "server",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Lenny Mendez",
+    "email": "mendezlenny@gmail.com",
+    "url": "https://lennydev.io"
+  },
+  "license": "MIT",
   "dependencies": {
-    "@hapi/hapi": "^20.1.0",
-    "axios": "^0.21.1",
-    "dotenv": "^8.2.0"
+    "@hapi/hapi": "^21.3.0",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.13.14",
-    "eslint": "^7.23.0",
-    "eslint-plugin-import": "^2.22.1",
-    "nodemon": "^2.0.7"
+    "@babel/eslint-parser": "^7.21.3",
+    "eslint": "^8.36.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.21"
   }
 }
